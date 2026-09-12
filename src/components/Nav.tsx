@@ -40,21 +40,21 @@ export default function Nav() {
           scrolled ? "py-3" : "py-6",
         )}
       >
-        <div className="mx-auto flex max-w-[1600px] items-center justify-between px-5 md:px-10">
+        <div className="mx-auto flex max-w-[1600px] items-center justify-between px-4 sm:px-6 lg:px-10">
           <a
             href="#home"
             className={cn(
-              "group flex items-center gap-3 rounded-full py-2 pr-5 pl-2 transition-all duration-500",
+              "group flex items-center gap-2.5 rounded-full py-2 pr-4 pl-2 transition-all duration-500 sm:gap-3 sm:pr-5",
               scrolled ? "glass" : "",
             )}
           >
             <SmartImage
               src="logo.png"
               alt="Logo"
-              className="h-10 w-10 shrink-0 rounded-full ring-1 ring-white/20"
+              className="h-9 w-9 shrink-0 rounded-full ring-1 ring-white/20 sm:h-10 sm:w-10"
             />
-            <span className="hidden sm:block">
-              <span className="block font-display text-[15px] leading-none tracking-[0.14em] text-bone">
+            <span className="hidden xs:block">
+              <span className="block font-display text-[13px] leading-none tracking-[0.14em] text-bone sm:text-[15px]">
                 BEINGADOT
               </span>
               <span className="block font-mono text-[9px] tracking-[0.3em] text-ash uppercase">

@@ -91,12 +91,15 @@ export default function CreativeCanvas() {
   }, []);
 
   return (
-    <section id="canvas" className="past-works relative w-full overflow-hidden bg-coal px-5 py-24 md:px-10 md:py-36">
+    <section
+      id="canvas"
+      className="past-works relative w-full overflow-hidden bg-coal px-4 py-20 sm:px-6 md:py-28 lg:px-10 lg:py-36"
+    >
       <div className="pointer-events-none absolute inset-0 hairline-grid opacity-40" />
       <div className="pointer-events-none absolute -right-32 top-10 h-[28rem] w-[28rem] rounded-full bg-[radial-gradient(circle,rgba(255,74,28,0.14),transparent_65%)] blur-2xl" />
 
       <div className="relative mx-auto max-w-[1600px]">
-        <div className="works-header mb-14 flex flex-col gap-6 border-b border-white/10 pb-8 md:mb-20 md:flex-row md:items-end md:justify-between">
+        <div className="works-header mb-10 flex flex-col gap-4 border-b border-white/10 pb-6 sm:mb-14 sm:gap-6 sm:pb-8 md:mb-20 md:flex-row md:items-end md:justify-between">
           <div>
             <div className="mb-5 flex items-center gap-5">
               <span className="font-mono text-[10px] tracking-[0.3em] text-acid">(03)</span>

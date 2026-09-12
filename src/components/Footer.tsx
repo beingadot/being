@@ -13,7 +13,7 @@ export default function Footer() {
     <footer id="contact" className="relative w-full overflow-hidden bg-void pt-24 md:pt-36">
       <div className="pointer-events-none absolute -top-40 left-1/2 h-[34rem] w-[80rem] -translate-x-1/2 rounded-full bg-[radial-gradient(ellipse,rgba(221,255,60,0.12),transparent_65%)] blur-3xl" />
 
-      <div className="relative mx-auto max-w-[1600px] px-5 md:px-10">
+      <div className="relative mx-auto max-w-[1600px] px-4 sm:px-6 lg:px-10">
         <div className="mb-6 flex items-center gap-5">
           <span className="font-mono text-[10px] tracking-[0.3em] text-acid">(06)</span>
           <span className="font-mono text-[10px] tracking-[0.3em] text-ash uppercase">Let's Connect</span>
@@ -61,7 +61,7 @@ export default function Footer() {
           </div>
 
           {/* links */}
-          <div className="col-span-6 md:col-span-4">
+          <div className="col-span-12 sm:col-span-6 md:col-span-4">
             <h3 className="font-mono text-[10px] tracking-[0.3em] text-ash uppercase">Quick Links</h3>
             <ul className="mt-5 space-y-2">
               {LINKS.map((l) => (
@@ -79,7 +79,7 @@ export default function Footer() {
           </div>
 
           {/* contact */}
-          <div className="col-span-6 md:col-span-4">
+          <div className="col-span-12 sm:col-span-6 md:col-span-4">
             <h3 className="font-mono text-[10px] tracking-[0.3em] text-ash uppercase">Let's Connect</h3>
             <div className="mt-5 space-y-4 text-sm">
               <p className="text-ash">

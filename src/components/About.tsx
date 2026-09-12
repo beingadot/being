@@ -56,11 +56,11 @@ export default function About() {
     <section
       id="about"
       ref={ref}
-      className="about-section relative w-full overflow-hidden bg-void px-5 py-24 md:px-10 md:py-36"
+      className="about-section relative w-full overflow-hidden bg-void px-4 py-20 sm:px-6 md:py-28 lg:px-10 lg:py-36"
     >
       <div className="pointer-events-none absolute top-1/3 -left-40 h-[30rem] w-[30rem] rounded-full bg-[radial-gradient(circle,rgba(123,220,255,0.10),transparent_65%)] blur-2xl" />
 
-      <div className="mx-auto grid max-w-[1600px] grid-cols-12 gap-x-10 gap-y-16">
+      <div className="mx-auto grid max-w-[1600px] grid-cols-12 gap-x-6 gap-y-12 lg:gap-x-10 lg:gap-y-16">
         {/* header */}
         <div className="col-span-12 flex items-center gap-5 border-b border-white/10 pb-6">
           <span className="font-mono text-[10px] tracking-[0.3em] text-acid">(01)</span>

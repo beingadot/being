@@ -20,12 +20,12 @@ export default function Testimonials() {
       id="love"
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
-      className="testimonials-section relative w-full overflow-hidden bg-coal px-5 py-24 md:px-10 md:py-36"
+      className="testimonials-section relative w-full overflow-hidden bg-coal px-4 py-20 sm:px-6 md:py-28 lg:px-10 lg:py-36"
     >
       <div className="pointer-events-none absolute inset-0 hairline-grid opacity-30" />
 
       <div className="relative mx-auto max-w-[1600px]">
-        <div className="testimonials-header mb-14 flex flex-col gap-6 border-b border-white/10 pb-8 md:flex-row md:items-end md:justify-between">
+        <div className="testimonials-header mb-10 flex flex-col gap-4 border-b border-white/10 pb-6 sm:mb-14 sm:gap-6 sm:pb-8 md:flex-row md:items-end md:justify-between">
           <div>
             <div className="mb-5 flex items-center gap-5">
               <span className="font-mono text-[10px] tracking-[0.3em] text-acid">(05)</span>
@@ -41,10 +41,10 @@ export default function Testimonials() {
           </p>
         </div>
 
-        <div className="testimonials-grid grid grid-cols-12 gap-8 lg:gap-14">
+        <div className="testimonials-grid grid grid-cols-12 gap-6 sm:gap-8 lg:gap-14">
           {/* featured quote */}
           <div className="col-span-12 lg:col-span-7">
-            <div className="relative min-h-[320px] rounded-3xl border border-white/10 bg-white/[0.02] p-7 md:min-h-[360px] md:p-12">
+            <div className="relative min-h-[260px] rounded-2xl border border-white/10 bg-white/[0.02] p-5 sm:min-h-[320px] sm:rounded-3xl sm:p-7 md:min-h-[360px] md:p-12">
               <span className="quote-icon pointer-events-none absolute top-2 right-6 font-serif text-[10rem] leading-none text-acid/10 select-none">
                 “
               </span>
@@ -59,7 +59,7 @@ export default function Testimonials() {
                   <p className="testimonial-text font-serif text-[clamp(1.35rem,3.2vw,2.35rem)] leading-[1.25] text-bone">
                     {t.quote}
                   </p>
-                  <div className="client-info mt-10 flex items-center gap-4">
+                  <div className="client-info mt-7 flex flex-wrap items-center gap-3 sm:mt-10 sm:gap-4">
                     <SmartImage
                       src={t.photo}
                       fallback={t.fallback}
