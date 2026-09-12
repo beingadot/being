@@ -12,7 +12,7 @@ const LINKS = [
 const SOCIALS = [
   { label: "IG", href: "https://instagram.com/beingadot.in" },
   { label: "YT", href: "https://www.youtube.com/@BEINGADOT" },
-  { label: "IN", href: "https://linkedin.com/in/your-handle" },
+  { label: "LI", href: "https://linkedin.com/in/your-handle" },
   { label: "WA", href: "https://wa.me/7564024877" },
 ];
 
