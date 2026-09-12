@@ -56,7 +56,7 @@ function Portrait() {
 /* ------------------------------------------------------------- orbit sticker */
 function OrbitBadge() {
   return (
-    <div className="pointer-events-none absolute -bottom-6 -left-4 z-20 h-20 w-20 sm:-bottom-8 sm:-left-8 sm:h-28 sm:w-28 lg:-bottom-10 lg:-left-10 lg:h-36 lg:w-36">
+    <div style={{ transform: "translateZ(60px)" }} className="pointer-events-none absolute -bottom-6 -left-4 z-20 h-20 w-20 sm:-bottom-8 sm:-left-8 sm:h-28 sm:w-28 lg:-bottom-10 lg:-left-10 lg:h-36 lg:w-36">
       <div className="absolute inset-0 rounded-full bg-black/80 ring-1 ring-white/10 backdrop-blur-md" />
       <svg viewBox="0 0 200 200" className="spin-slow absolute inset-0 h-full w-full">
         <defs>
@@ -140,7 +140,7 @@ export default function Hero() {
               </span>
             </span>
             <span className="font-mono text-[8px] tracking-[0.22em] text-ash uppercase sm:text-[10px] sm:tracking-[0.25em]">
-              Vadodara · Gujarat · India
+              Gujarat · India
             </span>
           </motion.div>
 
