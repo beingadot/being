@@ -173,9 +173,9 @@ export default function Hero() {
 
         {/* ---- portrait (original ratio) ---- */}
         <motion.div
-  style={{ y: yCard }}
-  className="relative order-2 col-span-12 mx-auto w-[76%] max-w-[360px] sm:w-[58%] lg:order-none lg:col-span-5 lg:row-span-2 lg:mx-0 lg:ml-auto lg:w-full lg:max-w-[440px] lg:self-center"
->
+          style={{ y: yCard }}
+          className="order-2 col-span-12 mx-auto w-[76%] max-w-[360px] sm:w-[58%] lg:order-none lg:col-span-5 lg:row-span-2 lg:mx-0 lg:ml-auto lg:w-full lg:max-w-[440px] lg:self-center"
+        >
           <motion.div
             initial={{ opacity: 0, scale: 0.9, rotateY: 18 }}
             animate={{ opacity: 1, scale: 1, rotateY: 0 }}
@@ -207,15 +207,16 @@ export default function Hero() {
             </div>
 
             <OrbitBadge />
-          </motion.div>
 
-          <div className="floaty absolute top-4 right-4 z-30 rounded-xl bg-bone px-2.5 py-2 text-black shadow-2xl sm:top-6 sm:right-6 sm:rounded-2xl sm:px-4 sm:py-3">
-            <p className="font-display text-lg leading-none sm:text-2xl">447+</p>
-            <p className="font-mono text-[7px] tracking-[0.18em] uppercase sm:text-[9px] sm:tracking-[0.2em]">
-              Projects done
-            </p>
-          </div>
-        </motion.div>
+            <div
+              style={{ transform: "translateZ(70px)" }}
+              className="floaty absolute -top-4 -right-2 rounded-xl bg-bone px-2.5 py-2 text-black shadow-2xl sm:-top-6 sm:-right-4 sm:rounded-2xl sm:px-4 sm:py-3"
+            >
+              <p className="font-display text-lg leading-none sm:text-2xl">447+</p>
+              <p className="font-mono text-[7px] tracking-[0.18em] uppercase sm:text-[9px] sm:tracking-[0.2em]">
+                Projects done
+              </p>
+            </div>
           </motion.div>
         </motion.div>
 
@@ -237,7 +238,7 @@ export default function Hero() {
             </div>
 
             <div className="flex w-full flex-wrap items-center gap-2.5 sm:w-auto sm:gap-3">
-              <a
+
                 href="#canvas"
                 data-cursor="Explore"
                 className="group relative flex-1 overflow-hidden rounded-full bg-acid px-5 py-3.5 text-center text-black sm:flex-none sm:px-7 sm:py-4"
@@ -247,7 +248,7 @@ export default function Hero() {
                 </span>
                 <span className="absolute inset-0 -translate-x-full bg-bone transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:translate-x-0" />
               </a>
-              <a
+
                 href="#reels"
                 data-cursor="Play"
                 className="group flex flex-1 items-center justify-center gap-2.5 rounded-full border border-white/20 px-5 py-3.5 transition-colors hover:border-acid sm:flex-none sm:px-6 sm:py-4"
