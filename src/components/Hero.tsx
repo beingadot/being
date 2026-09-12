@@ -140,7 +140,7 @@ export default function Hero() {
               </span>
             </span>
             <span className="font-mono text-[8px] tracking-[0.22em] text-ash uppercase sm:text-[10px] sm:tracking-[0.25em]">
-              Gujarat · India
+              Vadodara · Gujarat · India
             </span>
           </motion.div>
 
@@ -238,7 +238,7 @@ export default function Hero() {
             </div>
 
             <div className="flex w-full flex-wrap items-center gap-2.5 sm:w-auto sm:gap-3">
-
+              <a
                 href="#canvas"
                 data-cursor="Explore"
                 className="group relative flex-1 overflow-hidden rounded-full bg-acid px-5 py-3.5 text-center text-black sm:flex-none sm:px-7 sm:py-4"
@@ -248,7 +248,7 @@ export default function Hero() {
                 </span>
                 <span className="absolute inset-0 -translate-x-full bg-bone transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:translate-x-0" />
               </a>
-
+              <a
                 href="#reels"
                 data-cursor="Play"
                 className="group flex flex-1 items-center justify-center gap-2.5 rounded-full border border-white/20 px-5 py-3.5 transition-colors hover:border-acid sm:flex-none sm:px-6 sm:py-4"
