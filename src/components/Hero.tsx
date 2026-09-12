@@ -21,9 +21,7 @@ function Typewriter() {
 }
 
 /* ------------------------------------------------- being.png — natural ratio */
-function Portrait() {
-  const [stage, setStage] = useState<0 | 1 | 2>(0);
-  const src = stage === 0 ? "being.png" : FALLBACK.portrait;
+
 
   return (
     <div className="circle-wrapper relative w-full overflow-hidden rounded-[1.25rem] border border-white/12 bg-[linear-gradient(160deg,#15151d_0%,#0a0a10_60%,#17171f_100%)] p-2 sm:rounded-[1.6rem] sm:p-2.5">
