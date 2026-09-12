@@ -173,9 +173,9 @@ export default function Hero() {
 
         {/* ---- portrait (original ratio) ---- */}
         <motion.div
-          style={{ y: yCard }}
-          className="order-2 col-span-12 mx-auto w-[76%] max-w-[360px] sm:w-[58%] lg:order-none lg:col-span-5 lg:row-span-2 lg:mx-0 lg:ml-auto lg:w-full lg:max-w-[440px] lg:self-center"
-        >
+  style={{ y: yCard }}
+  className="relative order-2 col-span-12 mx-auto w-[76%] max-w-[360px] sm:w-[58%] lg:order-none lg:col-span-5 lg:row-span-2 lg:mx-0 lg:ml-auto lg:w-full lg:max-w-[440px] lg:self-center"
+>
           <motion.div
             initial={{ opacity: 0, scale: 0.9, rotateY: 18 }}
             animate={{ opacity: 1, scale: 1, rotateY: 0 }}
@@ -207,16 +207,15 @@ export default function Hero() {
             </div>
 
             <OrbitBadge />
+          </motion.div>
 
-            <div
-  style={{ transform: "translateZ(70px)" }}
-  className="floaty absolute top-4 right-4 rounded-xl bg-bone px-2.5 py-2 text-black shadow-2xl sm:top-6 sm:right-6 sm:rounded-2xl sm:px-4 sm:py-3"
->
-              <p className="font-display text-lg leading-none sm:text-2xl">447+</p>
-              <p className="font-mono text-[7px] tracking-[0.18em] uppercase sm:text-[9px] sm:tracking-[0.2em]">
-                Projects done
-              </p>
-            </div>
+          <div className="floaty absolute top-4 right-4 z-30 rounded-xl bg-bone px-2.5 py-2 text-black shadow-2xl sm:top-6 sm:right-6 sm:rounded-2xl sm:px-4 sm:py-3">
+            <p className="font-display text-lg leading-none sm:text-2xl">447+</p>
+            <p className="font-mono text-[7px] tracking-[0.18em] uppercase sm:text-[9px] sm:tracking-[0.2em]">
+              Projects done
+            </p>
+          </div>
+        </motion.div>
           </motion.div>
         </motion.div>
 
