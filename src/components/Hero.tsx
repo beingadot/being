@@ -21,7 +21,9 @@ function Typewriter() {
 }
 
 /* ------------------------------------------------- being.png — natural ratio */
-
+function Portrait() {
+  const [stage, setStage] = useState<0 | 1 | 2>(0);
+  const src = stage === 0 ? "being.png" : FALLBACK.portrait;
 
   return (
     <div className="circle-wrapper relative w-full overflow-hidden rounded-[1.25rem] border border-white/12 bg-[linear-gradient(160deg,#15151d_0%,#0a0a10_60%,#17171f_100%)] p-2 sm:rounded-[1.6rem] sm:p-2.5">
@@ -54,7 +56,7 @@ function Typewriter() {
 /* ------------------------------------------------------------- orbit sticker */
 function OrbitBadge() {
   return (
-    <div style={{ transform: "translateZ(60px)" }} className="pointer-events-none absolute -bottom-6 -left-4 z-20 h-20 w-20 sm:-bottom-8 sm:-left-8 sm:h-28 sm:w-28 lg:-bottom-10 lg:-left-10 lg:h-36 lg:w-36">
+    <div className="pointer-events-none absolute -bottom-6 -left-4 z-20 h-20 w-20 sm:-bottom-8 sm:-left-8 sm:h-28 sm:w-28 lg:-bottom-10 lg:-left-10 lg:h-36 lg:w-36">
       <div className="absolute inset-0 rounded-full bg-black/80 ring-1 ring-white/10 backdrop-blur-md" />
       <svg viewBox="0 0 200 200" className="spin-slow absolute inset-0 h-full w-full">
         <defs>
@@ -207,9 +209,9 @@ export default function Hero() {
             <OrbitBadge />
 
             <div
-              style={{ transform: "translateZ(70px)" }}
-              className="floaty absolute -top-4 -right-2 rounded-xl bg-bone px-2.5 py-2 text-black shadow-2xl sm:-top-6 sm:-right-4 sm:rounded-2xl sm:px-4 sm:py-3"
-            >
+  style={{ transform: "translateZ(70px)" }}
+  className="floaty absolute top-4 right-4 rounded-xl bg-bone px-2.5 py-2 text-black shadow-2xl sm:top-6 sm:right-6 sm:rounded-2xl sm:px-4 sm:py-3"
+>
               <p className="font-display text-lg leading-none sm:text-2xl">447+</p>
               <p className="font-mono text-[7px] tracking-[0.18em] uppercase sm:text-[9px] sm:tracking-[0.2em]">
                 Projects done
