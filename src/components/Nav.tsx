@@ -69,7 +69,7 @@ export default function Nav() {
               scrolled ? "glass" : "glass",
             )}
           >
-            {LINKS.map((l) => (
+            {links.map((l) => (
               <a
                 key={l.label}
                 href={l.href}
@@ -131,7 +131,7 @@ export default function Nav() {
               </button>
             </div>
             <div className="mt-14 flex flex-col gap-1">
-              {LINKS.map((l, i) => (
+              {links.map((l, i) => (
                 <motion.a
                   key={l.label}
                   href={l.href}
