@@ -3,12 +3,12 @@ import { AnimatePresence, motion, useScroll, useSpring } from "framer-motion";
 import SmartImage from "./SmartImage";
 import { cn } from "../utils/cn";
 
-const LINKS = [
-  { label: "Home", href: "#home", external: false },
-  { label: "About", href: "#about", external: false },
-  { label: "Learn", href: "https://beingadotcourses.vercel.app/", external: true },
-  { label: "Store", href: "https://beingaseller.vercel.app/", external: true },
-];
+const links = [
+    { label: "Home", href: "https://beingadot.vercel.app/", external: true },
+    { label: "About", href: "https://beingapartner.vercel.app/", external: true },
+    { label: "Learn", href: "https://beingadotcourses.vercel.app/", external: true },
+    { label: "Store", href: "https://beingaseller.vercel.app/", external: true },
+  ];
 
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false);
