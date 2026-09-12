@@ -81,7 +81,7 @@ export default function About() {
             <div className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-coal">
               <motion.div style={{ y: imgY }} className="h-full w-full">
                 <SmartImage
-                  src="being.png"
+                  src="arisha.png"
                   fallback={FALLBACK.portraitAlt}
                   alt="Profile Image"
                   className="profile-image aspect-[4/5] w-full"
