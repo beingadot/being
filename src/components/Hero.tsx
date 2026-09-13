@@ -239,7 +239,7 @@ export default function Hero() {
 
             <div className="flex w-full flex-wrap items-center gap-2.5 sm:w-auto sm:gap-3">
               <a
-                href="#canvas"
+                href="#sheets"
                 data-cursor="Explore"
                 className="group relative flex-1 overflow-hidden rounded-full bg-acid px-5 py-3.5 text-center text-black sm:flex-none sm:px-7 sm:py-4"
               >
