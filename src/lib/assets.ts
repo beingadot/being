@@ -49,18 +49,18 @@ export type Reel = {
 
 /** The original four clips plus eight new reel slots, for 12 videos in total. */
 export const REELS: Reel[] = [
-  { id: 1, video: "reel1.mp4", poster: square("821652"), label: "Signature Reel", tag: "Beingadot" },
-  { id: 2, video: "preschoolreel1.mp4", poster: square("6901810"), label: "Pre School", tag: "Brand Film" },
-  { id: 3, video: "coursereel1.mp4", poster: square("17650223"), label: "Course Promo", tag: "Education" },
-  { id: 4, video: "stockreel2.mp4", poster: square("11942007"), label: "Stock Cut", tag: "Commerce" },
-  { id: 5, video: "reel5.mp4", poster: square("7661410"), label: "Brand Story", tag: "Identity" },
-  { id: 6, video: "reel6.mp4", poster: square("7598009"), label: "Social Edit", tag: "Campaign" },
-  { id: 7, video: "reel7.mp4", poster: square("5767384"), label: "Type in Motion", tag: "Typography" },
-  { id: 8, video: "reel8.mp4", poster: square("10102133"), label: "Editorial Cut", tag: "Direction" },
-  { id: 9, video: "reel9.mp4", poster: square("14936124"), label: "Portfolio Film", tag: "Showcase" },
-  { id: 10, video: "reel10.mp4", poster: square("4271614"), label: "Creative Process", tag: "Behind Scenes" },
-  { id: 11, video: "reel11.mp4", poster: square("18833779"), label: "Colour Study", tag: "Visual Design" },
-  { id: 12, video: "reel12.mp4", poster: square("4439451"), label: "Final Frame", tag: "Campaign" },
+  { id: 1, video: "reel1.mp4", poster: "reel1.jpg", label: "Signature Reel", tag: "Beingadot" },
+  { id: 2, video: "preschoolreel1.mp4", poster: "reel2.jpg", label: "Pre School", tag: "Brand Film" },
+  { id: 3, video: "coursereel1.mp4", poster: "reel3.jpg", label: "Course Promo", tag: "Education" },
+  { id: 4, video: "stockreel2.mp4", poster: "reel4.jpg", label: "Stock Cut", tag: "Commerce" },
+  { id: 5, video: "reel5.mp4", poster: "reel5.jpg", label: "Brand Story", tag: "Identity" },
+  { id: 6, video: "reel6.mp4", poster: "reel6.jpg", label: "Social Edit", tag: "Campaign" },
+  { id: 7, video: "reel7.mp4", poster: "reel7.jpg", label: "Type in Motion", tag: "Typography" },
+  { id: 8, video: "reel8.mp4", poster: "reel8.jpg", label: "Editorial Cut", tag: "Direction" },
+  { id: 9, video: "reel9.mp4", poster: "reel9.jpg", label: "Portfolio Film", tag: "Showcase" },
+  { id: 10, video: "reel10.mp4", poster: "reel10.jpg", label: "Creative Process", tag: "Behind Scenes" },
+  { id: 11, video: "reel11.mp4", poster: "reel11.jpg", label: "Colour Study", tag: "Visual Design" },
+  { id: 12, video: "reel12.mp4", poster: "reel12.jpg", label: "Final Frame", tag: "Campaign" },
 ];
 
 export type Testimonial = {
