@@ -3,7 +3,7 @@ import SmartImage from "./SmartImage";
 
 const LINKS = [
   { label: "Home", href: "#home" },
-  { label: "Creative Canvas", href: "#canvas" },
+  { label: "Creative Canvas", href: "#sheets" },
   { label: "Reels", href: "#reels" },
   { label: "Contact", href: "#contact" },
 ];
