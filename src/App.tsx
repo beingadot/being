@@ -7,7 +7,6 @@ import Hero from "./components/Hero";
 import Ticker from "./components/Ticker";
 import About from "./components/About";
 import Showcase from "./components/Showcase";
-import CreativeCanvas from "./components/CreativeCanvas";
 import Reels from "./components/Reels";
 import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
@@ -66,7 +65,6 @@ export default function App() {
         />
 
         <Showcase />
-        <CreativeCanvas />
         <Reels />
 
         <Ticker
